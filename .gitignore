@@ -6,3 +6,4 @@ faiss_index/
 query_log.jsonl
 sample_docs/
 .DS_Store
+.Rhistory
