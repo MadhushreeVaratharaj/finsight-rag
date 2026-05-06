@@ -96,12 +96,18 @@ In a production banking environment, every AI interaction requires an audit trai
 ## Project Structure
 
 finsight-rag/
-├── app.py              # Streamlit frontend — chat, monitoring, about tabs
-├── rag_pipeline.py     # Core RAG engine — load, chunk, embed, retrieve, generate
-├── logger.py           # MLOps logging — query tracking and session statistics
-├── requirements.txt    # Pinned dependencies for reproducibility
-├── Dockerfile          # Container definition for deployment
-└── README.md
+
+- app.py              # Streamlit frontend — chat, monitoring, about tabs
+
+- rag_pipeline.py     # Core RAG engine — load, chunk, embed, retrieve, generate
+
+- logger.py           # MLOps logging — query tracking and session statistics
+
+- requirements.txt    # Pinned dependencies for reproducibility
+
+- Dockerfile          # Container definition for deployment
+
+- README.md
 
 ---
 
@@ -132,5 +138,4 @@ Upload any financial PDF from the sidebar and start asking questions.
 
 ## Author
 
-Built as a practical exploration of retrieval-augmented generation for financial document analysis, motivated by real experience navigating large technical documentation in a  
-banking environment. Feedback and questions welcome.
+Built as a practical exploration of retrieval-augmented generation for financial document analysis, motivated by real experience navigating large technical documentation in a banking environment. Feedback and questions welcome.

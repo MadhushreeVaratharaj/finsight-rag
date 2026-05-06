@@ -65,7 +65,7 @@ def build_qa_chain(vectorstore):
     prompt = PromptTemplate(
         input_variables=["context", "question"],
         template = """You are FinSight, a financial doceument analyst.
-        Answer using ONLY the context below. Never make up fidures or dates.
+        Answer using ONLY the context below. Never make up figures or dates.
         Always cite the document name and page number.
         If the answer is not in the context, say so clearly.
         Context:
